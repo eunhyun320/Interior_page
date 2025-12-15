@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+header {
+    width: 1445px;
+    height: 645px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.header1{
+    width: 1445px;
+    height: 100px;
+}
+.logo{
+    display: inline-block;
+    margin-right: 15px;
+}
+.logo img{
+    width: 350px;
+    height: 100px;
+}
+.searchbar{
+    display: inline-block;
+    margin-right: 15px;
+}
+.searchbar img{
+    width: 600px;
+    height: 90px;
+}
+.login{
+    width: 465px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.login ul{
+    width: 465px;
+    height: 100px;
+    text-align: center;
+    
+}
+.login ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 20px;    /*글씨 사이간격 조정*/
+    margin-top: 30px;  
+}
+.login ul li a{
+    color: black;
+    font-size: 33px;
+    text-decoration: none;
+}
+.login ul li a:hover{
+    color: red;
+}
+#login-link {
+    cursor: pointer; /* 커서를 포인터로 변경 */
+}
+.header2{
+    width: 1445px;
+    height: 80px;
+}
+.menu{
+    width: 1080px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.menu ul{
+    width: 1060px;
+    padding-left: 20px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.menu ul li a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.pop{
+    width: 350px;
+    height: 80px;
+    display: inline-block;
+}
+.pop img{
+    width: 350px;
+    height: 80px;
+}
+
+.banner1{
+    width: 350px;
+    height: 465px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.banner1 img{
+    width: 350px;
+    height: 465px;
+}
+.banner2{
+    width: 1080px;
+    height: 465px;
+    display: inline-block;
+}
+.banner2 img{
+    width: 1080px;
+    height: 465px;
+}
+
+main{
+    width: 1445px;
+    margin: 0 auto;
+}
+h2{
+    width: 350px;
+    height: 50px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.cate{
+    width: 1445px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.cate img{
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    display: inline-block;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shigong{
+    margin-bottom: 15px;
+}
+.inte{
+    margin-bottom: 50px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    gap: 15px;
+}
+
+.photo {
+    width: 350px;
+    height: 350px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+.loadMore {
+    padding: 5px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    border: none; /* 테두리 제거 */
+    color: rgb(59, 147, 219); /* 글씨 색상을 파란색으로 설정 */
+    background: none; /* 배경색 제거 */
+    cursor: pointer; /* 커서를 포인터로 변경 */
+    font-weight: bold;
+}
+.loadMore:hover{
+    color: darkblue;
+}
+h2, .loadMore {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    width: 1445px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    display: block;
+}
+
+.left, .right{
+    display: inline-block;
+    vertical-align: top;
+}
+.left ul{
+    height: 300px;
+    width: 715px; 
+    margin-right: 15px;
+}
+.left ul li{
+    font-size: 36px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.right ul{
+    height: 300px;
+    width: 715px; 
+}
+.right ul li{
+    font-size: 36px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
